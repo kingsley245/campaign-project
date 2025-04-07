@@ -228,7 +228,16 @@ footer {
   text-align: center;
   margin-top: 4rem;
 }
-
+.contact_none{
+  text-decoration: none;
+  color: black;
+  /* border: 1px solid #1e3a8a; */
+  background: #1e3a8a;
+  color: white;
+  padding: 8px 8px;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
 @media (max-width: 600px) {
   .hero h1 {
     font-size: 2rem;
