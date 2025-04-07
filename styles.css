@@ -1,0 +1,279 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+body {
+  background: #f7f9fc;
+  color: #222;
+  line-height: 1.6;
+}
+header {
+  background-color: #1e3a8a;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+nav a {
+  color: white;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, #3b82f6, #1e3a8a);
+  color: white;
+}
+.hero img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  border: 4px solid white;
+}
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+.hero button {
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  background: white;
+  color: #1e3a8a;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+.hero button:hover {
+  background: #e0e7ff;
+}
+section {
+  padding: 3rem 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+.cards {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.card {
+  background: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+form input, form textarea, form button {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0.75rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+form button {
+  background: #1e3a8a;
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+form button:hover {
+  background: #3b82f6;
+}
+.whatsapp-section {
+  background: #e0f2fe;
+  border-radius: 1rem;
+  padding: 2rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+.whatsapp-section h2 {
+  margin-bottom: 1rem;
+}
+.whatsapp-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.whatsapp-links a {
+  background-color: #25D366;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: background 0.3s;
+}
+.whatsapp-links a:hover {
+  background-color: #1da851;
+}
+
+#achievements {
+  padding: 3rem 2rem;
+  background: #e0f2fe;
+  border-radius: 1rem;
+  margin-top: 3rem;
+}
+
+.achievements-list {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.achievement {
+  background: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.achievement:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.achievement h3 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.achievement p {
+  font-size: 1rem;
+}
+
+/* adjustement */
+.student_archievements{
+  text-align: center;
+  margin-bottom: 2rem;
+}
+/* text-align:center; margin-bottom: 2rem;" */
+
+
+/* studentd goals */
+#goals {
+  padding: 3rem 2rem;
+  background-color: #e0f7fa;
+}
+
+.goals-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.goal-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.goal-card h3 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: #1e3a8a;
+}
+
+.goal-card p {
+  color: #333;
+}
+
+
+.goal-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.goal-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+footer {
+  background: #1e3a8a;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+  .hero p {
+    font-size: 1rem;
+  }
+  nav a {
+    margin-left: 0.5rem;
+    font-size: 0.9rem;
+  }
+  .whatsapp-links a {
+    flex: 1 1 100%;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  #goals h2 {
+    font-size: 1.5rem;
+  }
+
+  .goal-card h3 {
+    font-size: 1.3rem;
+  }
+
+  .goal-card p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  #goals h2 {
+    font-size: 1.2rem;
+  }
+
+  .goal-card {
+    padding: 1.5rem;
+  }
+
+  .goal-card h3 {
+    font-size: 1.2rem;
+  }
+
+  .goal-card p {
+    font-size: 0.85rem;
+  }
+}

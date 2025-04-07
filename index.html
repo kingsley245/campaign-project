@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" 
+rel="stylesheet">
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+  integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+  crossorigin="anonymous" 
+  referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="icon" href="./images/favicon-32x32.png">
+
+  <title>Better NDU with Diepreye | Blessing</title>
+</head>
+<body>
+
+<header>
+  <h1>Vote Datuowei Diepreye Blessing</h1>
+  <nav>
+    <a href="#goals">Goals</a>
+    <a href="#volunteer">Volunteer</a>
+    <a href="#contact">Contact</a>
+    <a href="#whatsapp">WhatsApp</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <img src="./images/WhatsApp Image 2025-04-06 at 06.07.29_5a49dd81.jpg" alt="Student Photo" />
+  <h1>Join the Movement</h1>
+  <p>Support Datuowei Diepreye Blessing for Vice President. Let’s make positive change together for student community.</p>
+  <button onclick="document.getElementById('volunteer').scrollIntoView({behavior:'smooth'})">
+    Join the Campaign
+  </button>
+</section>
+
+
+<!-- Goals Section -->
+<section id="goals">
+  <h2 class="student_archievements " >My Goals as Vice President</h2>
+  <div class="goals-cards">
+    
+    <!-- Goal 1 -->
+    <div class="goal-card">
+      <h3>Improved Student Welfare</h3>
+      <p>As VP, I will work closely with the welfare officer to ensure that students' needs are met, with a focus on mental health support and student safety.</p>
+    </div>
+    
+    <!-- Goal 2 -->
+    <div class="goal-card">
+      <h3>Enhancing Campus Communication</h3>
+      <p>To improve communication between students and faculty, I plan to establish clear channels for feedback and announcements via digital platforms.</p>
+    </div>
+    
+    <!-- Goal 3 -->
+    <div class="goal-card">
+      <h3>Support for Student Entrepreneurs</h3>
+      <p>As VP, I will create a platform for students to showcase and grow their business ideas, connecting them with mentors and investors.</p>
+    </div>
+
+  </div>
+</section>
+
+<section id="achievements">
+  <h2 class="student_archievements " >Student Achievements</h2>
+  <div class="achievements-list">
+    <div class="achievement">
+      <h3>Vice President of Mass Communication</h3>
+      <p>Served as Vice President of Mass Communication, leading the department and driving various initiatives.</p>
+    </div>
+    <div class="achievement">
+      <h3>Faculty of Social Science Cleanup</h3>
+      <p>Initiated and led a cleanup drive in the Faculty of Social Science, promoting environmental awareness on campus.</p>
+    </div>
+    <div class="achievement">
+      <h3>Collaboration with Welfare Officer</h3>
+      <p>Collaborated with the Welfare Officer during the Pad Drive by donating 200 pads to students in the hostel, supporting their hygiene and well-being.</p>
+    </div>
+    <div class="achievement">
+      <h3>Building the Bridge Business Initiative</h3>
+      <p>Organized and implemented the "Building the Bridge" initiative, connecting wholesalers to student startups, fostering entrepreneurship.</p>
+    </div>
+    <div class="achievement">
+      <h3>Establishment of Macosa Press Club</h3>
+      <p>Founded the Macosa Press Club, which later birthed Macosa TV, providing a platform for student journalism and media expression.</p>
+    </div>
+  </div>
+</section>
+
+<!-- whatsapp section -->
+<section class="whatsapp-section" id="whatsapp">
+  <h2>Join Our WhatsApp Groups</h2>
+  <p>Connect with others supporting the campaign and SUG leadership!</p>
+  <div class="whatsapp-links">
+    <a href="https://chat.whatsapp.com/I0gOSuGy4fIFiQEskenCX0 "  class="link">
+      <i class="fab fa-whatsapp"></i> VP Campaign Group
+    </a>
+    <a href="https://wa.me/welfare_group_link" >
+      <i class="fab fa-whatsapp"></i> Welfare Group
+    </a>
+
+    <a href="https://wa.me/welfare_group_link" >
+      <i class="fab fa-whatsapp"></i> President Group
+    </a>
+
+    <!-- <a href="https://wa.me/secretary_group_link" target="_blank" aria-label="link for secretary_group_link">
+      <i class="fab fa-whatsapp"></i> Secretary Group
+    </a> -->
+    <a href="https://wa.me/president_group_link"  class="links_whatsapp"><i class="fab fa-whatsapp"></i>Secretary Group</a>
+  </div>
+</section>
+
+<!-- Volunteer Section -->
+<section id="volunteer">
+  <h2 class="student_archievements " >Volunteer for the Campaign</h2>
+  <form   action="https://formspree.io/f/mgvapyqg"
+  method="POST" enctype="text/plain">
+    <div>
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <div>
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone">
+    </div>
+    <div>
+      <label for="message">Why do you want to volunteer?</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+</section>
+
+<!-- contact form -->
+
+<section id="contact">
+  <h2 class="student_archievements " >Contact Info</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Email</h3>
+      <p>I dont't have her email.com</p>
+    </div>
+    <div class="card">
+      <h3>Phone</h3>
+      <p>+234 812 217 0887</p>
+    </div>
+    <div class="card">
+      <h3>Instagram</h3>
+      <p>i don't have her Instagram handle.intagram</p>
+    </div>
+  </div>
+</section>
+
+<!-- footer links -->
+<footer>
+  <p>&copy; 2025 Datuowei Diepreye Blessing Campaign. All Rights Reserved.</p>
+</footer>
+</body>
+<script src="./script.js"></script>
+
+</html>
